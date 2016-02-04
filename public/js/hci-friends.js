@@ -3,6 +3,12 @@
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
+	$('.friends a h2').click(function()
+			{
+				event.preventDefault();
+				var name = $(this).text();
+				$(this).text(anagrammedName(name));
+			});
 })
 
 /*
