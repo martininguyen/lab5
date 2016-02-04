@@ -7,17 +7,17 @@ exports.view = function(req, res){
 		'friends':[
 		{
 			'image': 'http://lorempixel.com/500/500/people',
-			'name' : 'Fake Friend',
+			'name' : 'Doug Engelbart',
 			'desc' : 'All my friends are imaginary.'
 		},
 		{
 			'image': 'http://lorempixel.com/500/500/people',
-			'name' : 'Fake Friend',
+			'name' : 'Ivan Sutherland',
 			'desc' : 'All my friends are imaginary.'
 		},
 		{
 			'image': 'http://lorempixel.com/500/500/people',
-			'name' : 'Fake Friend',
+			'name' : 'JCR Licklider',
 			'desc' : 'All my friends are imaginary.'
 		},
 		]
